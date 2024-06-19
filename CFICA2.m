@@ -34,7 +34,7 @@ function [S,Mu]=CFICA2(EMG,param,Mu)
 % OUTPUT:
 % S, the output matrix of identified spike trains, the same as "Mu.S".
 % Mu, the same as "Mu" in the input arguments.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CFICA2 is an interactive multi-channel EMG decomposition program that sequentially
 % estimates the motor unit firing trains by kernel constrained FastICA. Upon identifying 
 % each motor unit spike train, the program generates a figure displaying this spike train
@@ -54,7 +54,7 @@ function [S,Mu]=CFICA2(EMG,param,Mu)
 %       After that, the program will display the final decomposition result (of a random selected channel)
 %       and ask the users if there are any unreliable motor units that need to be discarded. 
 %       If so, input the array of motor unit indexes to be discarded; if not, just press "enter".
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if nargin==1
     param=struct();
     Mu.Wave=[];Mu.MUpulse=[];Mu.S=[];
