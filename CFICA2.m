@@ -4,14 +4,14 @@ function [S,Mu]=CFICA2(EMG,param,Mu)
 % Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uor.edu.cn
 % Update:2024.02.13
 % Please cite:
-% [1]M. Chen and P. Zhou, "2CFastICA: A Novel Method for High Density Surface EMG Decomposition Based on 
-%    Kernel Constrained FastICA and Correlation Constrained FastICA," in IEEE Transactions on Neural 
-%    Systems and Rehabilitation Engineering, vol. 32, pp. 2177-2186, 2024, doi: 10.1109/TNSRE.2024.3398822.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% [1] M. Chen and P. Zhou, "2CFastICA: A Novel Method for High Density Surface EMG Decomposition Based on 
+%     Kernel Constrained FastICA and Correlation Constrained FastICA," in IEEE Transactions on Neural 
+%     Systems and Rehabilitation Engineering, vol. 32, pp. 2177-2186, 2024, doi: 10.1109/TNSRE.2024.3398822.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Full format: [S,Mu]=CFICA2(EMG,param,Mu);
 %Suggested format : [S,Mu]=CFICA2(EMG);
 %                   [S,Mu]=CFICA2(EMG,param);
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INPUT:
 % EMG, multi-channel EMG signal data matrix (channels X samples).
 %      Before feeding the EMG signal into the program, invalid channels 
