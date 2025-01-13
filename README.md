@@ -8,4 +8,4 @@ Details of 2CFastICA can be found in the following paper:
 M. Chen and P. Zhou, "2CFastICA: A Novel Method for High Density Surface EMG Decomposition Based on Kernel Constrained FastICA and Correlation Constrained FastICA," in IEEE Transactions on Neural Systems and Rehabilitation Engineering, vol. 32, pp. 2177-2186, 2024, doi: 10.1109/TNSRE.2024.3398822.
 
 The program is for research and non-commercial purposes only. Please provide appropriate citation when using the program.
-For any questions regarding the program, please contact Maoqi Chen, PhD, at maoqi.chen@uor.edu.cn or hiei@mail.ustc.edu.cn.
+For any questions regarding the program, please contact Maoqi Chen, PhD, at maoqi.chen@uhrs.edu.cn or hiei@mail.ustc.edu.cn.
