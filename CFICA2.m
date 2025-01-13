@@ -1,7 +1,7 @@
 function [S,Mu]=CFICA2(EMG,param,Mu)
 % $$$ Documentation of 2CFastICA  $$$
 % Author:Maoqi Chen
-% Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uor.edu.cn
+% Email:hiei@mail.ustc.edu.cn  or  maoqi.chen@uhrs.edu.cn
 % Update:2024.02.13
 % Please cite:
 % [1] M. Chen and P. Zhou, "2CFastICA: A Novel Method for High Density Surface EMG Decomposition Based on 
