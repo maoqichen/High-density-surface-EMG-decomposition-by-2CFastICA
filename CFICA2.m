@@ -233,13 +233,6 @@ S=Mu.S;
         y=y-mean(y,2)*ones(1,size(y,2));
         [~,xt,~,CC]=boxing(y(a,:),S,wavelength,p,a);
         W=CC*y';
-        if p>=2
-            for k=1:size(W,2)
-                W2=reshape(W(:,k),[wavelength,size(S,1)]);
-                W2=wavesurgery(W2')';
-                W(:,k)=W2(:);
-            end
-        end
         MUAPT=zeros(size(y,1),size(S,2),size(S,1));
         for iiii=1:size(S,1)
             MUAPT(:,:,iiii)=W((iiii-1)*wavelength+1:iiii*wavelength,:)'*xt((iiii-1)*wavelength+1:iiii*wavelength,:);
@@ -257,10 +250,6 @@ S=Mu.S;
             %C=(xt*xt')\xt;
             CC=pinv(xt');
             W=CC*x';
-            if p>=2
-                Wt=reshape(W,[wavelength,n]);
-                Wt=wavesurgery(Wt')';W=Wt(:);
-            end
             huifu=W'*xt;
             if (p>=1)
                 figure;
