@@ -9,3 +9,4 @@ M. Chen and P. Zhou, "2CFastICA: A Novel Method for High Density Surface EMG Dec
 
 The program is for research and non-commercial purposes only. Please provide appropriate citation when using the program.
 For any questions regarding the program, please contact Maoqi Chen, PhD, at maoqi.chen@uhrs.edu.cn or hiei@mail.ustc.edu.cn.
+P.S. This is a program that requires manual editing, as misuse of decomposition algorithms is not desired. Users need to filter out the reliable decomposition results by themselves.
